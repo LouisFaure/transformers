@@ -1504,6 +1504,9 @@ else:
             "ASTForAudioClassification",
             "ASTModel",
             "ASTPreTrainedModel",
+            "FlaxASTForAudioClassification", 
+            "FlaxASTModel", 
+            "FlaxASTPreTrainedModel"
         ]
     )
     _import_structure["models.auto"].extend(

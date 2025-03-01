@@ -21,6 +21,7 @@ if TYPE_CHECKING:
     from .configuration_audio_spectrogram_transformer import *
     from .feature_extraction_audio_spectrogram_transformer import *
     from .modeling_audio_spectrogram_transformer import *
+    from .modeling_flax_ast import *
 else:
     import sys
 
